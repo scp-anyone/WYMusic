@@ -1,0 +1,16 @@
+.area-header {
+  display: flex;
+  margin: 10rpx 0;
+  line-height: 80rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.area-header .tit {
+  font-size: 36rpx;
+  color: #333;
+  font-weight: 700;
+}
+.area-header .more {
+  font-size: 28rpx;
+  color: gray;
+}

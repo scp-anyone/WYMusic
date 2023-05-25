@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@vant/weapp": "^1.10.18",
+    "hy-event-store": "^1.2.1",
+    "underscore": "^1.13.6"
+  },
+  "name": "ice-music",
+  "description": "微信小程序 + vant 组件库 + hy-event-store 状态管理库 + underscore",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GetWebHB/ice-music.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GetWebHB/ice-music/issues"
+  },
+  "homepage": "https://github.com/GetWebHB/ice-music#readme"
+}

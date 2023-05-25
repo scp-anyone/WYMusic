@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home-music/home-music",
+    "pages/home-video/home-video",
+    "pages/detail-video/detail-video",
+    "pages/song-search/song-search",
+    "pages/detail-menu/detail-menu",
+    "pages/song-list/song-list",
+    "pages/persion/persion",
+    "pages/login/login",
+    "pages/register/register"
+  ],
+  "subPackages": [{
+    "root": "packagePlayer",
+    "name": "p1",
+    "pages": [
+      "pages/music-player/music-player"
+    ]
+  }],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fafafa",
+    "navigationBarTitleText": "adoretheall",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home-music/home-music",
+        "text": "音乐",
+        "iconPath": "/assets/images/tabbar/music_normal.png",
+        "selectedIconPath": "/assets/images/tabbar/music_active.png"
+      },
+      {
+        "pagePath": "pages/home-video/home-video",
+        "text": "视频",
+        "iconPath": "/assets/images/tabbar/video_normal.png",
+        "selectedIconPath": "/assets/images/tabbar/video_active.png"
+      },
+      {
+        "pagePath": "pages/persion/persion",
+        "text": "我的",
+        "iconPath": "/assets/images/tabbar/profile_normal.png",
+        "selectedIconPath": "/assets/images/tabbar/profile_active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

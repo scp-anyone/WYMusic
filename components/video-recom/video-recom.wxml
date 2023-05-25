@@ -1,0 +1,10 @@
+<view class="video-recom-item" bindtap="handleTap">
+  <view class="video-item-left" style="width: {{isBig ? '40%' : '110rpx'}}">
+    <image class="cover" mode="widthFix" src="{{videoItem.coverUrl}}"></image>
+  </view>
+  <view class="video-item-right">
+    <view class="tit">{{videoItem.title}}</view>
+    <view class="userName">{{videoItem.creator[0].userName}}</view>
+  </view>
+  <van-icon name="arrow" wx:if="{{isArrow}}" color="#aaa" />
+</view>

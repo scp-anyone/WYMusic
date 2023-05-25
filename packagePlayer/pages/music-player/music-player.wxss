@@ -1,0 +1,162 @@
+.bg-img,
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.mask {
+  background: rgba(0, 0, 0, .4);
+  backdrop-filter: blur(20px);
+}
+
+.taps {
+  display: flex;
+  font-size: 28rpx;
+  color: #aaa;
+}
+.taps .active {
+  color: white;
+}
+.taps .line {
+  margin: 0 8rpx;
+}
+
+/* pages */
+.pages {
+  color: white;
+}
+
+.pages .swiper {
+  box-sizing: border-box;
+  padding: 20rpx 60rpx;
+}
+
+.songs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+.songs .cover-wrap {
+  width: 100%;
+  margin-bottom: 70rpx;
+}
+.songs .cover {
+  width: 100%;
+  height: 100%;
+  border-radius: 15rpx;
+}
+
+.song-content {
+  position: absolute;
+  width: 100%;
+  bottom: 50rpx;
+}
+
+.songs-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10rpx;
+  width: 100%;
+}
+
+.songs-info .name {
+  font-size: 46rpx;
+  font-weight: bold;
+}
+.songs-info .author {
+  font-size: 28rpx;
+  color: #aaa;
+}
+.dec {
+  height: 42rpx;
+  margin-top: 12rpx;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider .slider-bar {
+  margin: 15rpx 18px 12rpx 18rpx;
+}
+
+.slider-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+}
+
+.btns {
+  margin: 20rpx 0 30rpx;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns .btn {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.btns .btn-play {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.btns .btn-mode {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+/* 歌词页面 */
+.lyric {
+  text-align: center;
+  height: 100%;
+}
+
+.lyric ::-webkit-scrollbar {
+  display: none;
+}
+
+.lyric .text {
+  color: #aaa;
+  line-height: 40px;
+}
+
+.lyric .active {
+  font-size: 36rpx;
+  color: #00ff00;
+}
+
+.song-dec {
+  line-height: 40px;
+  color: #333;
+}
+
+.song-dec:first-child {
+  margin-top: 60rpx;
+}
+
+.song-dec.active {
+  color: #049404;
+}
+
+.song-dec.active .author {
+  color: #049404;
+}
+
+.song-dec .author {
+  font-size: 28rpx;
+  color: gray;
+}

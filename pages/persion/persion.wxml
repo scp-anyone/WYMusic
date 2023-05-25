@@ -1,0 +1,15 @@
+<!--pages/persion/persion.wxml-->
+<van-image width="100" height="100" src="{{userinfo.avatarUrl}}" round="true"/>
+
+<van-cell-group>
+  <van-cell title="昵称" value="{{userinfo.nickName}}" />
+  <van-cell title="姓名" value="李堂烽" label="描述信息" border="{{ false }}" />
+</van-cell-group>
+<van-cell-group>
+  <van-cell title="学校" value="重庆文理学院" />
+  <van-cell title="学院" value="人工智能学院" label="二级学院" border="{{ false }}" />
+</van-cell-group>
+<van-cell-group>
+  <van-cell title="我的喜欢" is-link />
+  <van-cell title="我的收藏" is-link />
+</van-cell-group>

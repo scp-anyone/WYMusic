@@ -1,0 +1,9 @@
+<!--pages/login/login.wxml-->
+
+<van-empty description="登录获取更多信息" />
+<view class="rootview">
+  <van-button open-type="getUserInfo" bindgetuserinfo="handlegetuserinfo" custom-class="btn" type="primary">登录</van-button>
+  <van-button bindtap="handleregister" class="btn" type="info">注册</van-button>
+  <van-button bindtap="handlecancle" class="btn" type="info">取消</van-button>
+
+</view>

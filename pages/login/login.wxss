@@ -1,0 +1,13 @@
+.rootview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.van-button {
+
+  display: flex;
+  margin-top: 10px;
+}
